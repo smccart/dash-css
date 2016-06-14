@@ -1,0 +1,12 @@
+{
+  "name": "dash-css",
+  "version": "0.0.1",
+  "description": "A set of CSS utility helpers written in SASS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass -w ./src/dash-css.scss ./dist/dash-css.css",
+    "build": "node-sass ./src/dash-css.scss ./dist/dash-css.css cleancss -o ./dist/dash-css.min.css ./dist/dash-css.css"
+  },
+  "author": "Sean McCart <seanmccart@gmail.com>",
+  "license": "ISC"
+}
