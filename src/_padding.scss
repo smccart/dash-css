@@ -1,1 +1,39 @@
-_padding.scss
+/*====================================================================
+    Padding
+======================================================================*/
+
+$list: 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100;
+
+.-nopad, .-no-pad {
+    padding: 0 !important;
+}
+
+@each $inc in $list {
+    .-p#{$inc} {
+        padding: #{$inc}px !important;
+    }
+}
+
+@each $inc in $list {
+    .-pt#{$inc} {
+        padding-top: #{$inc}px !important;
+    }
+}
+
+@each $inc in $list {
+    .-pb#{$inc} {
+        padding-bottom: #{$inc}px !important;
+    }
+}
+
+@each $inc in $list {
+    .-pl#{$inc} {
+        padding-left: #{$inc}px !important;
+    }
+}
+
+@each $inc in $list {
+    .-pr#{$inc} {
+        padding-right: #{$inc}px !important;
+    }
+}

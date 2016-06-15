@@ -1,1 +1,27 @@
-_offset.scss
+/*====================================================================
+    Offsets
+======================================================================*/
+
+@for $i from -15 through 15 {
+    .-top#{$i} {
+        top: #{$i}px !important;
+    }
+}
+
+@for $i from -15 through 15 {
+    .-bottom#{$i} {
+        bottom: #{$i}px !important;
+    }
+}
+
+@for $i from -15 through 15 {
+    .-right#{$i} {
+        right: #{$i}px !important;
+    }
+}
+
+@for $i from -15 through 15 {
+    .-left#{$i} {
+        left: #{$i}px !important;
+    }
+}
